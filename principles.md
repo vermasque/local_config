@@ -20,3 +20,7 @@
 - Inaction should be justified to prevent indecision.
 - Software (implementation or tests) should be simple to explain to avoid confusing users and developers.
 - Be consistent in decisions to provide clarity on when to do what.
+- Balance forward progress with perfection and perfection now or later.
+- Design to eliminate potential edge cases, failures, or errors instead of letting be possible and then defending against them.
+- TDD provides a minimum level of testing but may need to convince reviewers of sufficient testing with more thoroughness.
+- Reduce context switching to speed things up (for example, study an example entirely before designing based on it).
