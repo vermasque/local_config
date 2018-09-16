@@ -24,3 +24,4 @@
 - Design to eliminate potential edge cases, failures, or errors instead of letting be possible and then defending against them.
 - TDD provides a minimum level of testing but may need to convince reviewers of sufficient testing with more thoroughness.
 - Reduce context switching to speed things up (for example, study an example entirely before designing based on it).
+- Validate inputs before using them.
