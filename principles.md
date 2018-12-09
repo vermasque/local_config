@@ -36,6 +36,9 @@ Principles for software development inspired by the book Principles by Ray Dalio
 - Implementation and tests should be simple to explain to avoid confusing users and developers.
 - Design to eliminate potential edge cases, failures, or errors instead of letting be possible and then defending against them.
 - TDD provides a minimum level of testing but may need to convince reviewers of sufficient testing with more thoroughness.
+- Write unit tests first over integration tests for speed primarily as well as easier discoverability and debugging.
+  - Integration tests supplement for wiring and serde and when unit testing is not feasible.
+  - Can see overlap between unit and integration tests but not if perceived as functionality vs. wiring.
 
 ## People
 
